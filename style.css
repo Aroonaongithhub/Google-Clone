@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/* Links to move from one page to another styling part */
+#link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.move-from-page {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.move-from-page:active,:hover {
+    color: black;
+}
+/* Google logo styling part */
+.div-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GoogleLogo{
+    margin-top: 36px;
+}
+/* input div styling part */
+.ipDiv {
+    display: flex;
+    min-height: 44px;
+    z-index: 3;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 638px;
+    max-width: 584px;
+    flex-wrap:wrap;
+}
+
+.ipDiv:focus {
+    outline: none;
+}
+
+.ipDiv:hover {
+    box-shadow: 1px 1px 10px 1px rgba(245, 242, 242, 0.75);
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(245, 242, 242, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(245, 242, 242, 0.75);
+}
+/* input box styling part */
+.input-box{
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 12px;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    flex: 100%;
+}
+/* buttons styling part */
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    border: 1px solid #c5c6c6;
+}
+
+
+                                        /* Advanced Search CSS */
+.heading{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-top: 30px;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+.advance-logo{
+    position: relative;
+    right: 81vw;
+    display: flex;
+    height: 24px;
+    width: 74px;
+    margin-top: 20px;
+    margin-left: 22px;
+    flex: 1 1 auto;
+}
+.Advance-search{
+    margin: 50px;
+}
+.sp1{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    
+}
+.whiteSpace{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.left{
+    /* width: 200px; */
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.right{
+    /* width: 386px; */
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+.form-label{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.btn-advance{
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+.btn-advance:hover{
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
